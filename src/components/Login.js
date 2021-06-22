@@ -9,7 +9,7 @@ function Login() {
     <LoginContainer>
       <Background>
         <Image
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="http://www.pngmart.com/files/10/Netflix-Logo-PNG-Image.png"
           alt=""
         />
         <h2>Clone app</h2>
@@ -58,18 +58,18 @@ const LoginContainer = styled.div`
 const Background = styled.div`
   h2 {
     position: fixed;
-    left: 180px;
-    top: 25px;
+    left: 175px;
+    top: 29px;
     color: white;
   }
 `;
 
 const Image = styled.img`
   position: fixed;
-  left: 0;
-  width: 150px;
+  top: 32px;
+  left: 30px;
+  width: 120px;
   object-fit: contain;
-  padding-left: 20px;
 `;
 
 const Button = styled.button`

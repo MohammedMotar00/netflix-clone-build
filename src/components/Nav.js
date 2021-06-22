@@ -25,7 +25,7 @@ function Nav() {
         <div>
           <NavLogo
             onClick={() => history.push("/")}
-            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+            src="http://www.pngmart.com/files/10/Netflix-Logo-PNG-Image.png"
             alt=""
           />
           <h3>Clone app</h3>
@@ -60,19 +60,17 @@ const Container = styled.div`
   justify-content: space-between;
 
   h3 {
-    margin-left: 80px;
+    margin-left: 90px;
     color: white;
   }
 `;
 
 const NavLogo = styled.img`
   position: fixed;
-  top: 10px;
-  left: 0;
+  left: 20px;
   width: 80px;
   object-fit: contain;
   cursor: pointer;
-  padding-left: 20px;
 `;
 
 const NavAvatar = styled.img`
