@@ -12,6 +12,7 @@ function Login() {
           src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
           alt=""
         />
+        <h2>Clone app</h2>
         <Button onClick={() => setSignIn(true)}>Sign In</Button>
 
         <Gradient />
@@ -54,7 +55,14 @@ const LoginContainer = styled.div`
   background-size: cover;
 `;
 
-const Background = styled.div``;
+const Background = styled.div`
+  h2 {
+    position: fixed;
+    left: 180px;
+    top: 25px;
+    color: white;
+  }
+`;
 
 const Image = styled.img`
   position: fixed;

@@ -8,6 +8,7 @@ import { auth } from "./firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { login, logout, selectUser } from "./features/userSlice";
 import Profile from "./components/Profile";
+import Footer from "./components/Footer";
 
 function App() {
   const user = useSelector(selectUser);
@@ -48,6 +49,7 @@ function App() {
             </Route>
           </Switch>
         )}
+        <Footer />
       </Router>
     </div>
   );
