@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import SignUp from "./SignUp";
+import NetflixLogo from "../img/Netflix-Logo-PNG-Image.png";
 
 function Login() {
   const [signIn, setSignIn] = useState(false);
@@ -8,10 +9,7 @@ function Login() {
   return (
     <LoginContainer>
       <Background>
-        <Image
-          src="http://www.pngmart.com/files/10/Netflix-Logo-PNG-Image.png"
-          alt=""
-        />
+        <Image src={NetflixLogo} alt="" />
         <h2>Clone app</h2>
         <Button onClick={() => setSignIn(true)}>Sign In</Button>
 
