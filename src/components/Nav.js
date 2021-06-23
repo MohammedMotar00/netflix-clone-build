@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import styled from "styled-components";
+import NetflixLogo from "../img/Netflix-Logo-PNG-Image.png";
 
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -23,11 +24,7 @@ function Nav() {
     <NavContainer className={show && "nav__black"}>
       <Container>
         <div>
-          <NavLogo
-            onClick={() => history.push("/")}
-            src="http://www.pngmart.com/files/10/Netflix-Logo-PNG-Image.png"
-            alt=""
-          />
+          <NavLogo onClick={() => history.push("/")} src={NetflixLogo} alt="" />
           <h3>Clone app</h3>
         </div>
         <NavAvatar
